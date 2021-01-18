@@ -1,0 +1,11 @@
+<div class="cards jungle-cards">
+      <% @jungles.each do |jungle| %>
+
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= jungle.banner_url %>);">
+        <%= link_to jungle_path(jungle) do %>
+        <br>
+        <h4><%= jungle.name %></h4><br>
+        <% end %>
+      </div>
+      <% end %>
+    </div>

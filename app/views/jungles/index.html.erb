@@ -1,0 +1,39 @@
+
+<div class="">
+
+  <div class ="row justify-content-center central-col p-5">
+
+    <div class="col-2 menu-col">
+      menu column
+    </div>
+
+    <div class="col-6 ">
+
+      <div>
+
+        <%= render "search-bar" %>
+
+        <div class="">
+          <h6> x jungles match to your search</h6>
+        </div>
+
+        <%= render "jungle-cards" %>
+      </div>
+
+
+         <%= link_to "Back", root_path, class: "btn btn-outline-primary" %>
+
+    </div>
+
+    <div class="col-4 map-col">
+      <div class="map-div mt-5">
+        map
+        <div class="link mt-3">
+           <%= link_to "Create your jungle", new_jungle_path, class: "btn btn-success" %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

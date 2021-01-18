@@ -1,0 +1,49 @@
+
+.text-center {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  max-width: 50%;
+  h1 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+
+  }
+}
+
+
+.create-section {
+  background: linear-gradient(135deg, lightgreen, white);
+
+}
+
+
+
+.share-section {
+   background: linear-gradient(135deg,  lightblue, white,);
+
+
+}
+
+
+
+
+.connect-section {
+   background: linear-gradient(135deg, white, lightpink);
+   display: flex;
+   justify-content: space-between;
+   text-align: right;
+
+}
+.create-section, .share-section, .connect-section {
+  color: white;
+  padding: 60px;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+
+.white-border {
+  padding: 30px;
+  border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @jungle.banner_url %>);">
+  <div class="container">
+    <h1><%= @jungle.name %></h1>
+  </div>
+</div>
+
+<div class="container">
+
+
+<div class="container">
+  <h4><%= link_to 'Add a plant!', new_jungle_plant_path(@jungle) %></h4>
+  <div class="cards">
+    <% @jungle.plants.each do |plant| %>
+
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= plant.image %>);">
+        <h4><%= plant.name %></h4>
+        <p> <%= link_to 'edit', edit_plant_path(plant) %> </p>
+
+        <p> <%= link_to '🗑', plant_path(plant.id), method: :delete %> </p>
+      </div>
+    <% end %>
+  </div>
+  <%= link_to 'Edit', edit_jungle_path(@jungle) %> |
+<%= link_to 'Back', jungles_path %> |
+<%= link_to 'create a plant', new_jungle_plant_path(@jungle) %>
+
+
+
+</div>
+
+</div>
+
