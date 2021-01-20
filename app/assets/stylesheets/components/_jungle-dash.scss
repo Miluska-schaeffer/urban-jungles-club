@@ -1,3 +1,17 @@
+.menu-col {
+  border-radius: 20px;
+  background: #878BA5;
+  box-shadow:  5px 5px 33px #8387a0, -5px -5px 33px #8b8faa;
+  padding: 20px;
+  li {
+    padding: 20px;
+    color: white;
+    // list-style-type: none;
+  }
+}
+
+
 .central-col {
   background: linear-gradient(135deg, $bg-purple, white);
 }
+
