@@ -21,15 +21,8 @@ class JunglesController < ApplicationController
     end
   end
 
-  def edit
-  end
+  d
 
-  def update
-    if @jungle.update(garden_params)
-      redicret_to @jungle, notice: 'jungle was updated'
-    else
-      render :edit
-    end
   end
 
   def destroy
