@@ -15,10 +15,7 @@ Jungle.create(
   banner_url: 'https://images.unsplash.com/photo-1530968561612-341586ef608a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80'
 )
 
-Jungle.create(
-  name: 'Jungle of Chio',
-  banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80'
-)
+
 
 Jungle.create(
   name: 'Chicha\'s Jungle',
@@ -41,15 +38,18 @@ Jungle.create(
   banner_url: 'https://images.unsplash.com/photo-1603436326363-e4693ce2757c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80'
 )
 
-Jungle.create(
-  name: 'Chicha\'s Jungle',
-  banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
-)
 
 Jungle.create(
   name: 'Jungle of Chio',
   banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80'
 )
+
+Jungle.create(
+  name: 'Jungle of Paul',
+  banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80'
+)
+
+
 
 puts "#{Jungle.count} jungles created."
 
