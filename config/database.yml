@@ -5,8 +5,8 @@ default: &default
 
 development:
   <<: *default
-  database: rails-mister-cocktail_development
+  database: urban-jungles-club_development
 
 test:
   <<: *default
-  database: rails-mister-cocktail_test
+  database: urban-jungles-club_test
