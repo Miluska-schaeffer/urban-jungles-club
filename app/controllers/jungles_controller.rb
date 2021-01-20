@@ -21,9 +21,8 @@ class JunglesController < ApplicationController
     end
   end
 
-  d
 
-  end
+
 
   def destroy
   end
@@ -38,4 +37,5 @@ class JunglesController < ApplicationController
   end
 
 end
+
 
