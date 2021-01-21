@@ -10,29 +10,37 @@ Jungle.destroy_all
 
 puts "Database clean!"
 
+
+
+
+
+
+
+
 Jungle.create(
   name: 'Milas jungle',
   banner_url: 'https://images.unsplash.com/photo-1530968561612-341586ef608a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80',
-  location: 'Bredtschneiderstrasse 12 Berlin, Germany'
+  location: 'St.-Anna-Straße,20,80538,München'
+
 )
 
 Jungle.create(
   name: 'Chicha\'s Jungle',
   banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-  location: 'Essen, Germany'
+  location: 'Grünewaldstraße,18,63739,Aschaffenburg'
 
 )
 
 Jungle.create(
   name: 'Frank\'s Secret Garden',
   banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
-  location: 'Essen, Germany'
+  location: 'Rheinlandstraße,2,82319,Starnberg'
 )
 
 Jungle.create(
   name: 'Carla\'s Urban Oasis',
   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Paris, France'
+  location: 'Mitterfeldallee,17,85774,Unterföhring'
 
 )
 
@@ -40,7 +48,8 @@ Jungle.create(
 Jungle.create(
   name: 'Joe\'s Jungle',
   banner_url: 'https://images.unsplash.com/photo-1603436326363-e4693ce2757c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80',
-  location: 'Munich, Germany'
+  location: 'Gutenbergstraße,1,86150,Augsburg
+'
 
 )
 
@@ -48,21 +57,23 @@ Jungle.create(
 Jungle.create(
   name: 'Jungle of Chio',
   banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80',
-  location: 'New York, United States'
+  location: 'Lindauer Straße,22,87439,Kempten
+'
 
 )
 
 Jungle.create(
   name: 'Jungle of Paul',
   banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80',
-  location: 'Chicago, United States'
+  location: 'Reutiner Straße,14,88131,Lindau'
 
 )
 
 Jungle.create(
   name: 'Jungle of Paul',
   banner_url: 'https://images.unsplash.com/photo-1591870510340-c8578d6c3b5f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80',
-  location: 'Seattle, United States'
+  location: 'Schultheißallee,1,90478,Nürnberg
+'
 
 )
 
@@ -70,14 +81,16 @@ Jungle.create(
 Jungle.create(
   name: 'Chicha\'s Jungle',
   banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-  location: 'Berlin, Germany'
+  location: 'Waldschulallee,95,14055,Berlin
+'
 
 )
 
 Jungle.create(
   name: 'Frank\'s Secret Garden',
   banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
-  location: 'Berlin, Germany'
+  location: 'Beskidenstraße,1,14129,Berlin
+'
 
 )
 
@@ -88,105 +101,106 @@ Jungle.create(
 
 )
 
-Jungle.create(
-  name: 'Joe\'s Jungle',
-  banner_url: 'https://images.unsplash.com/photo-1603436326363-e4693ce2757c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80',
-  location: 'Berlin, Germany'
+# Jungle.create(
+#   name: 'Joe\'s Jungle',
+#   banner_url: 'https://images.unsplash.com/photo-1603436326363-e4693ce2757c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80',
+#   location: 'Berlin, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Milas jungle',
-  banner_url: 'https://images.unsplash.com/photo-1530968561612-341586ef608a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80',
-  location: 'Berlin, Germany'
+# Jungle.create(
+#   name: 'Milas jungle',
+#   banner_url: 'https://images.unsplash.com/photo-1530968561612-341586ef608a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80',
+#   location: 'Berlin, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Chicha\'s Jungle',
-  banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-  location: 'Berlin, Germany'
+# Jungle.create(
+#   name: 'Chicha\'s Jungle',
+#   banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+#   location: 'Berlin, Germany'
 
-)
+# )
 
 Jungle.create(
   name: 'Frank\'s Secret Garden',
   banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
-  location: 'Berlin, Germany'
+  location: 'Ostpreußendamm,166,12207,Berlin
+'
 
 )
 
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Essen, Germany'
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Essen, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Berlin, Germany'
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Berlin, Germany'
 
-)
-
-
-Jungle.create(
-  name: 'Chicha\'s Jungle',
-  banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-  location: 'Berlin, Germany'
-
-)
-
-Jungle.create(
-  name: 'Frank\'s Secret Garden',
-  banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
-  location: 'Berlin, Germany'
-
-)
-
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Freiburg, Germany'
-
-)
-
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Hamburg, Germany'
-
-)
+# )
 
 
-Jungle.create(
-  name: 'Chicha\'s Jungle',
-  banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
-  location: 'Essen, Germany'
+# Jungle.create(
+#   name: 'Chicha\'s Jungle',
+#   banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+#   location: 'Berlin, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Frank\'s Secret Garden',
-  banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
-  location: 'Munich, Germany'
+# Jungle.create(
+#   name: 'Frank\'s Secret Garden',
+#   banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
+#   location: 'Berlin, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Lima, Peru'
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Freiburg, Germany'
 
-)
+# )
 
-Jungle.create(
-  name: 'Carla\'s Urban Oasis',
-  banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
-  location: 'Sao Paulo, Brasil'
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Hamburg, Germany'
 
-)
+# )
+
+
+# Jungle.create(
+#   name: 'Chicha\'s Jungle',
+#   banner_url: 'https://images.unsplash.com/photo-1604762525827-61f629d82f1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+#   location: 'Essen, Germany'
+
+# )
+
+# Jungle.create(
+#   name: 'Frank\'s Secret Garden',
+#   banner_url: 'https://images.unsplash.com/photo-1552758070-02c40ecffd5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80',
+#   location: 'Munich, Germany'
+
+# )
+
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Lima, Peru'
+
+# )
+
+# Jungle.create(
+#   name: 'Carla\'s Urban Oasis',
+#   banner_url: 'https://images.unsplash.com/photo-1544860707-c352cc5a92e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80',
+#   location: 'Sao Paulo, Brasil'
+
+# )
 puts "#{Jungle.count} jungles created."
 
 # tags = ["Fern", 'Succulent', 'Flower', 'Palm', 'Evergreen', 'Deciduous']

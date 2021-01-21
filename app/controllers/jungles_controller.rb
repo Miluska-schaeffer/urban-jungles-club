@@ -8,7 +8,7 @@ class JunglesController < ApplicationController
       {
         lat: jungle.latitude,
         lng: jungle.longitude,
-        infowindow: render_to_string(partial: "info_window", locals: { jungle: jungle})
+        infoWindow: render_to_string(partial: "info_window", locals: { jungle: jungle})
       }
     end
  end
