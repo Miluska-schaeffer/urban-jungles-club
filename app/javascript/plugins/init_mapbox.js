@@ -6,6 +6,7 @@ const buildMap = (mapElement) => {
   return new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10'
+
   });
 };
 
@@ -15,7 +16,7 @@ const addMarkersToMap = (map, markers) => {
 
     new mapboxgl.Marker()
       .setLngLat([ marker.lng, marker.lat ])
-      .setPopup(popup) // add this
+      .setPopup(popup)
       .addTo(map);
   });
 };

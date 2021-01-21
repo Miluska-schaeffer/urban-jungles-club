@@ -20,6 +20,14 @@ require("jquery")
 
 import 'bootstrap';
 
+import 'mapbox-gl/dist/mapbox-gl.css';
+// internal imports - geocoder
+import { initMapbox } from '../plugins/init_mapbox';
+
+document.addEventListener('turbolinks:load', () => {
+  initMapbox();
+})
+
 // navbar
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 
@@ -30,9 +38,4 @@ document.addEventListener('turbolinks:load', () => {
 
 
 
-// geocoder
-import { initMapbox } from '../plugins/init_mapbox';
 
-document.addEventListener('turbolinks:load', () => {
-  initMapbox();
-})

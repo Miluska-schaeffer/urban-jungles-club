@@ -17,14 +17,10 @@
 }
 
 
-
 .share-section {
    background: linear-gradient(135deg,  lightblue, white,);
 
-
 }
-
-
 
 
 .connect-section {
@@ -42,13 +38,17 @@
   font-size: 2rem;
 }
 
-
 .white-border {
   padding: 30px;
   border-radius: 10px;
 }
 
+.home-cards {
+  a {
 
+    color: white;
+  }
+}
 .see-all-jungles {
   font-size: 1rem;
 }

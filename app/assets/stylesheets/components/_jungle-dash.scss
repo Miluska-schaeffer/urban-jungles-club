@@ -1,22 +1,20 @@
+.central-col {
+  background: linear-gradient(145deg, #ffffff, #dcdcdc);
+  box-shadow:  20px 20px 60px #cfcfcf,
+             -20px -20px 60px #ffffff;
+  }
+
 .menu-col {
-  border-radius: 20px;
-  background: #878BA5;
-  box-shadow:  5px 5px 33px #8387a0, -5px -5px 33px #8b8faa;
+ border-radius: 10px;
+ background: linear-gradient(145deg, #ffffff, #dcdcdc);
+ box-shadow:  20px 20px 60px #cfcfcf,
+             -20px -20px 60px #ffffff;
   padding: 20px;
   li {
     padding: 20px;
-    color: white;
     // list-style-type: none;
   }
 }
-
-
-.central-col {
-  background: linear-gradient(135deg, $bg-purple, white);
-}
-
-
-
 
 
 // jungle index cards
@@ -25,7 +23,6 @@
     font-size: 0.8rem;
   }
 }
-
 
 
 .menu-col, .cards-col, .map-col {
