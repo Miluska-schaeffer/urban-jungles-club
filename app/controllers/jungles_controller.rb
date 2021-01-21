@@ -1,5 +1,6 @@
 class JunglesController < ApplicationController
-  before_action :find_jungle, only: [ :show, :edit, :update, :destroy ]
+  before_action :find_jungle, only: [:show, :edit, :update, :destroy]
+
   def index
     @jungles = Jungle.all
   end
@@ -11,7 +12,6 @@ class JunglesController < ApplicationController
     @jungle = Jungle.new
   end
 
-
   def create
     @jungle = Jungle.new(jungle_params)
     if  @jungle.save
@@ -21,13 +21,11 @@ class JunglesController < ApplicationController
     end
   end
 
-
-
-
   def destroy
   end
 
   private
+
   def find_jungle
     @jungle = Jungle.find(params[:id])
   end
@@ -37,5 +35,3 @@ class JunglesController < ApplicationController
   end
 
 end
-
-

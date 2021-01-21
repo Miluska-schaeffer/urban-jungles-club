@@ -5,6 +5,21 @@
   padding: 40px;
 }
 
+
+// .navbar-home {
+//   position: absolute;
+//   width: 100%;
+//   background: transparent;
+//   box-shadow: none;
+// }
+
+
+    .navbar-wagon-link {
+    color: white;
+    font-weight: bold;
+  }
+
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
@@ -16,15 +31,6 @@
   background-color: lightgreen;
 }
 
-.navbar-home {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  box-shadow: none;
 
 
-  .navbar-wagon-link {
-    color: white;
-    font-weight: bold;
-  }
-}
+

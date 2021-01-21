@@ -2,12 +2,12 @@
       <% @jungles.each do |jungle| %>
 
         <div class="card-jungle" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= jungle.banner_url %>);">
-  <%= link_to jungle_path(jungle) do %>
-
-        <h4><%= jungle.name %></h4><br>
-        <% end %>
+          <%= link_to jungle_path(jungle) do %>
+            <h4><%= jungle.name %></h4>
+          <% end %>
 
        </div>
 
       <% end %>
-    </div>
+
+</div>
