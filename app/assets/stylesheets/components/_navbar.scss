@@ -14,12 +14,14 @@
 // }
 
 
-    .navbar-wagon-link {
-    color: white;
-    font-weight: bold;
+.navbar-wagon-link {
+  color: white;
+  font-weight: bold;
   }
 
-
+.nav-link, .navbar-brand {
+  color: white ;
+}
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
