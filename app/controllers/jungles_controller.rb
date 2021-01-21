@@ -4,10 +4,11 @@ class JunglesController < ApplicationController
   def index
     @jungles = Jungle.all
 
-    @markers = @jungles.geocoded.map do |flat|
+    @markers = @jungles.geocoded.map do |jungle|
       {
         lat: jungle.latitude,
-        lng: jungle.longitude
+        lng: jungle.longitude,
+        infowindow: render_to_string(partial: "info_window", locals: { jungle: jungle})
       }
     end
  end

@@ -27,7 +27,8 @@ document.addEventListener('turbolinks:load', () => {
 });
 
 
-
+// CSS
+import 'mapbox-gl/dist/mapbox-gl.css';
 // geocoder
 import { initMapbox } from '../plugins/init_mapbox';
 
