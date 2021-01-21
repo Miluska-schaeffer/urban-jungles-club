@@ -55,5 +55,11 @@ gem 'simple_form'
 # dotenv for keeping out keys safe
 gem 'dotenv-rails', groups: [:development, :test]
 
+# cloudinary
+gem 'cloudinary', '~> 1.16.0'
+
 # geocoder
 gem 'geocoder'
+
+
+

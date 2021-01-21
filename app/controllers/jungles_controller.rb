@@ -2,7 +2,7 @@ class JunglesController < ApplicationController
   before_action :find_jungle, only: [:show, :edit, :update, :destroy]
 
   def index
-    @jungles = Jungle.all
+    @jungles = Jungle.all.limit(12)
 
     @markers = @jungles.geocoded.map do |jungle|
       {
