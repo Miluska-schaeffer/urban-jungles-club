@@ -52,6 +52,8 @@ gem 'font-awesome-sass', '~> 5.12.0'
 
 gem 'simple_form'
 
+# dotenv for keeping out keys safe
+gem 'dotenv-rails', groups: [:development, :test]
 
 # geocoder
 gem 'geocoder'
