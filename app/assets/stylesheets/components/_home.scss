@@ -29,7 +29,17 @@
    justify-content: space-between;
    text-align: right;
 
+
 }
+
+.cards-section {
+background: linear-gradient(135deg, white, #ad7ab5ba);
+ a {
+
+    color: white;
+  }
+}
+
 .create-section, .share-section, .connect-section {
   color: white;
   padding: 60px;
@@ -43,12 +53,7 @@
   border-radius: 10px;
 }
 
-.home-cards {
-  a {
 
-    color: white;
-  }
-}
 .see-all-jungles {
   font-size: 1rem;
 }

@@ -1,4 +1,4 @@
-<div class="cards jungle-cards">
+<div class="cards jungle-cards p-5">
       <% @jungles.each do |jungle| %>
 
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= jungle.banner_url %>);">
@@ -9,7 +9,7 @@
       </div>
       <% end %>
       <div class="card-category" style="background-image: linear-gradient(#8BC34A, rgb(139, 195, 74,0.59)), url('https://images.unsplash.com/photo-1561819775-612449efea85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');">
-        <%= link_to "See All Jungles" , jungles_path, class:"see-all-jungles"  %>
+        <%= link_to "Explore" , jungles_path, class:"see-all-jungles"  %>
         <br>
 
 

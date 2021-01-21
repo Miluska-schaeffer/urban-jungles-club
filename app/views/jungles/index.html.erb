@@ -8,7 +8,7 @@
         <li><%= link_to "Home", root_path %></li>
         <li>My Jungles </li>
         <li>My Posts</li>
-        <li><%= link_to "Explore", jungles_path %></li>
+        <li><%= link_to "UrbanJungle's Blog", jungles_path %></li>
 
       </ul>
     </div>
@@ -19,19 +19,20 @@
         <%= render "search-bar" %>
 
         <div class="">
-          <h6> x jungles match to your search</h6>
-        </div>
+<!--           <h6> x jungles match to your search</h6>
+ -->        </div>
 
         <%= render "jungle-cards" %>
       </div>
 
+        <%= link_to "Back", root_path, class: "btn btn-outline-dark mt-3" %>
 
-         <%= link_to "Back", root_path, class: "btn btn-outline-dark mt-3" %>
+         <%= link_to "Next", root_path, class: "btn btn-outline-dark mt-3" %>
     </div>
 
     <div class="col-4 map-col ">
 
-      <div class="map-div mt-5">
+      <div class="map-div ">
         <div>
         <%= render "map" %>
         </div>
