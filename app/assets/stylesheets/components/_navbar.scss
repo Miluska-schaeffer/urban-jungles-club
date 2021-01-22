@@ -14,12 +14,12 @@
 // }
 
 .navbar-wagon-link {
-  color: white;
+  color: $cta-black;
   font-weight: bold;
   }
 
 .nav-link, .navbar-brand {
-  color: white ;
+  color: $cta-black ;
 }
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
@@ -30,6 +30,9 @@
 
 .navbar-lewagon-white {
   background-color: lightgreen;
+  .nav-link, .navbar-brand {
+  color: white;
+}
 }
 
 
