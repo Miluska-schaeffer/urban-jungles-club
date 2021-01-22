@@ -5,16 +5,18 @@
   }
 
 .menu-col {
- border-radius: 10px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   padding: 20px;
   li {
-    padding: 20px;
+    padding: 20px; }
+    a {
+    font-size: 14px;
     // list-style-type: none;
   }
 }
+
 
 
 // jungle index cards

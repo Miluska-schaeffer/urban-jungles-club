@@ -5,7 +5,7 @@
 }
 
 .footer {
-  background: #F4F4F4;
+  background: $cta-black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,9 +19,10 @@
 .footer-links {
   display: flex;
   align-items: center;
+  color: white;
 }
 .footer-links a {
-  color: black;
+  color: white;
   opacity: 0.15;
   text-decoration: none;
   font-size: 24px;
@@ -32,4 +33,9 @@
 }
 .footer .fa-leaf {
   color: lightgreen;
+}
+
+
+.footer-copyright {
+  color: white;
 }
