@@ -5,13 +5,27 @@
       <ul class="list-unstyled">
 
         <li><%= link_to "Create My Own Jungle", new_jungle_path %></li>
-        <li><%= link_to "Home", root_path %></li>
-        <li>My Jungles </li>
-        <li>My Posts</li>
-        <li><%= link_to "UrbanJungle's Blog", jungles_path %></li>
+        <li> <%= link_to root_path do %>
+          <i class="fas fa-door-closed"></i> Home </li>
+           <% end %>
+        <li> <%= link_to root_path do %>
+              <i class="fas fa-seedling"></i> My Jungles </li>
+           <% end %>
+        <li> <%= link_to root_path do %>
+              <i class="fab fa-readme"></i> My Posts </li>
+           <% end %>
+
+        <li> <%= link_to root_path do %>
+
+           <i class="fas fa-book-dead"></i></i> UJC Blog </li>
+           <% end %>
+
 
       </ul>
     </div>
+
+
+
 
     <div class="col-6  cards-col">
       <div>
