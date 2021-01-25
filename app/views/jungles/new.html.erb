@@ -1,4 +1,4 @@
-<div class="container new-jungle-container mt-5 p-5 sharing-simple-form">
+<div class="container new-jungle-container mt-5  sharing-simple-form">
  <%= simple_form_for(@jungle) do |f| %>
   <%= f.error_notification %>
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
