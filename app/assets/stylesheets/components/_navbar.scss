@@ -22,6 +22,11 @@
   font-weight: bold;
   }
 
+
+  .navbar-brand {
+    font-family: $my-font;
+  }
+
 .nav-link, .navbar-brand {
   color: $cta-black ;
 }
