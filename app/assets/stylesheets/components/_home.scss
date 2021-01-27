@@ -1,61 +1,32 @@
+.sections {
+  background: linear-gradient(135deg, #F9FEF9, white);
 
-.text-center {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-  max-width: 50%;
-  h1 {
-    color: black;
-    font-weight: bold;
-    text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
-
-  }
-}
-
-.create-section {
-  background: linear-gradient(135deg, lightgreen, white);
-
-}
-
-
-.share-section {
-   background: linear-gradient(135deg,  lightblue, white,);
-
-}
-
-
-.connect-section {
-   background: linear-gradient(135deg, white, lightpink);
-   display: flex;
-   justify-content: space-between;
-   text-align: right;
-
-
-}
-
-.cards-section {
-background: linear-gradient(135deg, white, #ad7ab5ba);
-
-  a {
-    color: white;
-  }
 }
 
 .create-section, .share-section, .connect-section {
-  color: white;
+  color: $cta-black;
   padding: 60px;
   font-size: 1rem;
   font-weight: lighter;
   font-size: 2rem;
 }
 
-.white-border {
-  padding: 30px;
-  border-radius: 10px;
+.connect-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.cards-section {
+ padding: 40px;
+
+  a {
+    color: white;
+  }
 }
 
 
 .see-all-jungles {
   font-size: 1rem;
 }
-
-
 
