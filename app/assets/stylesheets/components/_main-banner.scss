@@ -8,6 +8,10 @@
     h1, h2 {
       color:$cta-black
     }
+    h1 {
+      font-family: $my-font;
+      font-size: 3rem;
+    }
     h2 {
       font-weight: lighter;
     }
