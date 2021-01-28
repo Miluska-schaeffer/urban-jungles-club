@@ -1,36 +1,26 @@
 .sections {
   background: linear-gradient(135deg, #F9FEF9, white);
+  padding-top: 5%;
 
 }
 
 .create-section, .share-section, .connect-section {
   color: $cta-black;
-  padding: 80px 8%;
-  font-size: 1rem;
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 
-
-
-.connect-section {
-  display: flex;
-  justify-content: space-between;
-  text-align: right;
-  .connect-section--text {
-    margin-left: 16%;
-  }
+.share-section {
+  margin-bottom: 5%;
 }
 
 .cards-section {
  padding: 40px;
-
   a {
     color: white;
   }
 }
-
 
 .see-all-jungles {
   font-size: 1rem;
