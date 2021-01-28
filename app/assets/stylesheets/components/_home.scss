@@ -5,16 +5,22 @@
 
 .create-section, .share-section, .connect-section {
   color: $cta-black;
-  padding: 60px;
+  padding: 80px 8%;
   font-size: 1rem;
   font-weight: lighter;
   font-size: 2rem;
 }
 
+
+
+
 .connect-section {
   display: flex;
   justify-content: space-between;
   text-align: right;
+  .connect-section--text {
+    margin-left: 16%;
+  }
 }
 
 .cards-section {
