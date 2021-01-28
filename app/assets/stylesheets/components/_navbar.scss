@@ -9,7 +9,6 @@
 }
 
 
-
 // .navbar-home {
 //   position: absolute;
 //   width: 100%;
@@ -19,7 +18,7 @@
 
 .navbar-wagon-link {
   color: $cta-black;
-  font-weight: bold;
+  // font-weight: bold;
   }
 
 
@@ -27,6 +26,9 @@
     font-family: $my-font;
   }
 
+.nav-item, .dropdown-item {
+  font-weight: lighter;
+}
 .nav-link, .navbar-brand {
   color: $cta-black ;
 }
